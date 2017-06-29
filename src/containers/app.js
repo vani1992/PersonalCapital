@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from "react-redux";
 
-import SearchBar from '../containers/searchbar';
-import FinancialInstitues from '../containers/financialInstitutes';
+import SearchBar from '../components/searchbar';
+import FinancialInstitues from '../components/financialInstitutes';
 import { fetchInstitutes } from '../actions/index';
 import _ from "lodash";
 
