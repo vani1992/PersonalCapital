@@ -1,0 +1,47 @@
+#container .container {
+    margin-top: 35px;
+}
+
+.form-control {
+    padding: 20px 20px !important;
+    border-radius: 20px !important;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 0 !important;
+}
+
+.form-group span {
+    position: absolute;
+    right: 20px;
+    top: 14px;
+}
+
+.list-group {
+    height: 250px;
+    overflow: auto;
+}
+
+.list-group-item {
+    border-bottom: 1px dotted #cccccc !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    background-color: transparent !important;
+}
+
+.list-group-item:hover {
+    background-color: #E9ECEF !important;
+    cursor: pointer !important;
+}
+
+.list-group-item p {
+    margin-bottom: 0;
+    color: #393939;
+}
+
+.list-group-item span {
+    font-size: 12px;
+    color: #999;
+}
